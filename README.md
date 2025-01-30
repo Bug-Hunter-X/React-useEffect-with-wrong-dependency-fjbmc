@@ -1,0 +1,2 @@
+# React useEffect with wrong dependency
+This example demonstrates a common mistake in React's `useEffect` hook: including the state variable in the dependency array when it's not necessary. This can lead to infinite loops and performance issues. The solution shows how to correctly use `useEffect` in such scenarios.  The bug is in the dependency array of `useEffect` where `count` variable is included causing infinite rerenders.
